@@ -692,8 +692,8 @@ class Circle(Oval):
     def calculate_dot_product(self, p1, p2):
         return p1.getX() * p2.getX() + p1.getY() * p2.getY()
 
-    def verify_inside_point(self, click):
-        distance = self.calculate_points_distance(self.getCenter(), click)
+    def verify_inside_point(self, point):
+        distance = self.calculate_points_distance(self.getCenter(), point)
         if distance <= self.getRadius():
             return True
         return False
