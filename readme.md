@@ -6,9 +6,10 @@ Este projeto consiste em um conjunto de funções desenvolvidas para facilitar o
 
 
 ## Utilização
-
-### Pré-requisitos
-- Ter a biblioteca graphics.py importada no seu ambiente Python.
+Coloque o arquivo graphics_modificada.py no diretório do seu projeto e importe no seu código.
+````python
+from graphics_modificada import *
+````
 
 
 ## Exemplos de Uso
@@ -47,7 +48,7 @@ else:
 
 - ### Verificar colisão entre um círculo e um retângulo:
 ````python
-from graphics import *
+from graphics_modificada import *
 
 #Criação do círculo
 circle = Circle(Point(100, 100), 50)
@@ -65,7 +66,7 @@ else:
 - ### Verificar colisão entre um círculo e um polígono:
 
 ````python
-from graphics import *
+from graphics_modificada import *
 
 #Criação do círculo
 circle = Circle(Point(100, 100), 50)
@@ -86,7 +87,7 @@ else:
 
 - ### Verificar colisão entre um círculo e uma linha:
 ````python
-from graphics import *
+from graphics_modificada import *
 
 #Criação do círculo
 circle = Circle(Point(100, 100), 50)
