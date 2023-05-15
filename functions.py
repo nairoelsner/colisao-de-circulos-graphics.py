@@ -21,8 +21,8 @@ def calculate_dot_product(p1, p2):
     return p1.getX() * p2.getX() + p1.getY() * p2.getY()
 
 #verifica ponto/click dentro de um círculo
-def verify_inside_point(circle, click):
-    distance = calculate_points_distance(circle.getCenter(), click)
+def verify_inside_point(circle, point):
+    distance = calculate_points_distance(circle.getCenter(), point)
     if distance <= circle.getRadius():
         return True
     return False
