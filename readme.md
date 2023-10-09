@@ -101,7 +101,7 @@ line = Line(p1, p2)
 if circle.verify_colision(line):
 	print("Colisão detectada entre o círculo e a linha")
 else:
-	print("Não há colisão entre o círculo e a linha"
+	print("Não há colisão entre o círculo e a linha")
 ````
 
 
