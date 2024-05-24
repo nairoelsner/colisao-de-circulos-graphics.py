@@ -2,7 +2,7 @@
 # Módulo de colisões entre círculos e formas geométricas para graphics.py
 
 ## Objetivo
-Este projeto consiste em um conjunto de funções desenvolvidas para facilitar o cálculo de colisões entre círculos e outras formas geométricas, de forma performática, utilizando a biblioteca graphics.py. As funções fornecidas permitem verificar colisões entre um círculo e outros círculos, pontos, retângulos, linhas e polígonos. Os conceitos matemáticos podem ser aplicados podem ser aplicados em qualquer outra biblioteca de sua preferência.
+Este projeto consiste em um conjunto de funções desenvolvidas para facilitar o cálculo de colisões entre círculos e outras formas geométricas, de forma performática, utilizando a biblioteca graphics.py. As funções fornecidas permitem verificar colisões entre um círculo e outros círculos, pontos, retângulos, linhas e polígonos.
 
 
 ## Utilização
